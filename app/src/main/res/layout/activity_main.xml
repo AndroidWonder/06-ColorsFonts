@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1" >
+
+    <TableRow
+        android:id="@+id/myRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/labelSans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dip"
+            android:background="#ff006666"
+            android:text="sans:"
+            android:textSize="@dimen/textsize" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, world!"
+            android:textSize="@dimen/textsize"
+            android:typeface="sans" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/labelSerif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dip"
+            android:background="#ff006666"
+            android:text="serif:"
+            android:textSize="@dimen/textsize" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, world!"
+            android:textColor="@color/teal"
+            android:textSize="@dimen/textsize"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/labelMonospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dip"
+            android:background="#ff006666"
+            android:text="monospace:"
+            android:textSize="@dimen/textsize" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="Hello, world!"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/textsize"
+            android:typeface="monospace"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/labelCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dip"
+            android:background="#ff006666"
+            android:text="custom:"
+            android:textSize="@dimen/textsize" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, world!"
+            android:textSize="@dimen/textsize" >
+        </TextView>
+    </TableRow>
+
+</TableLayout>
