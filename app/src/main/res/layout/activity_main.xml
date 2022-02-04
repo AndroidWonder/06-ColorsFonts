@@ -83,7 +83,8 @@
             android:text="Hello, world!"
             android:textColor="@color/orange"
             android:textSize="@dimen/textsize"
-            android:typeface="monospace"></TextView>
+            android:typeface="monospace">
+        </TextView>
     </TableRow>
 
     <TableRow

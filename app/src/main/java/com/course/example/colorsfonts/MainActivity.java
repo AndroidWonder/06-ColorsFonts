@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.activity_main);
 
-        // bind the "custom" TextView with chosen font
         TextView tvCustom=(TextView)findViewById(R.id.custom);
+
+        // bind the "custom" TextView with chosen font
         Typeface typeface = getResources().getFont(R.font.jokerman);
         tvCustom.setTypeface(typeface);
 
