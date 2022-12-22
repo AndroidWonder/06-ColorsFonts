@@ -4,7 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:stretchColumns="1" >
+    android:stretchColumns="1"
+    android:background="@color/orange">
 
     <TableRow
         android:id="@+id/myRow1"
@@ -17,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="24dip"
-            android:background="#ff006666"
+            android:background="@color/yellow"
             android:text="sans:"
             android:textSize="@dimen/textsize" >
         </TextView>
@@ -43,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="24dip"
-            android:background="#ff006666"
+            android:background="@color/yellow"
             android:text="serif:"
             android:textSize="@dimen/textsize" >
         </TextView>
@@ -70,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="24dip"
-            android:background="#ff006666"
+            android:background="@color/yellow"
             android:text="monospace:"
             android:textSize="@dimen/textsize" >
         </TextView>
@@ -81,7 +82,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/amita"
             android:text="Hello, world!"
-            android:textColor="@color/orange"
+            android:textColor="@color/purple_700"
             android:textSize="@dimen/textsize"
             android:typeface="monospace">
         </TextView>
@@ -98,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="24dip"
-            android:background="#ff006666"
+            android:background="@color/yellow"
             android:text="custom:"
             android:textSize="@dimen/textsize" >
         </TextView>
