@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         tvCustom.setTextColor(color);
 
         //set type size from /res/values/
-        float size = getResources().getDimension(R.dimen.customsize);
+        float size= getResources().getDimension(R.dimen.customsize);
         tvCustom.setTextSize(size);
 
     }
