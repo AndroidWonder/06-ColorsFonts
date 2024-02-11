@@ -4,7 +4,6 @@ plugins {
 
 android {
     compileSdk 33
-    buildToolsVersion '33.0.1'
 
     defaultConfig {
         applicationId "com.course.example.colorsfonts"
@@ -22,6 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.course.example.colorsfonts'
 }
 
 dependencies {
